@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+/* App.css */
+
+.app-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Optional: This sets the container's height to the full viewport height */
+  padding: 20px; /* Add the desired padding value (e.g., 20px) */
+}
+
+/* Optional: Add a separator line between the components */
+.poll-separator {
+  width: 1px;
+  background-color: #ccc;
+  margin: 0 20px;
+}
